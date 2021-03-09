@@ -6,6 +6,7 @@ import Logo from "../components/Logo";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import Mouse from "../components/Mouse";
 import { motion } from "framer-motion";
+import ContactForm from "../components/ContactForm";
 
 const Contact = () => {
     return (
@@ -21,7 +22,7 @@ const Contact = () => {
         >
           <Navigation />
           <Logo />
-          {/* <ContactForm /> */}
+          <ContactForm />
           <div className="contact-infos">
             <div className="address">
               <div className="content">
