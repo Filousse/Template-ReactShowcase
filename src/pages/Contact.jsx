@@ -75,7 +75,7 @@ const Contact = () => {
                   }}
                 >
                   brasseur.blz@gmail.com
-                </p>
+                </p> 
               </CopyToClipboard>
             </div>
           </div>

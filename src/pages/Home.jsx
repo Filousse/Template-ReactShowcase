@@ -40,7 +40,7 @@ const Home = () => {
         <div className="home-main">
           <div className="main-content">
             <motion.h1 drag onDragEnd   dragConstraints={{ left: -250, right: 950, top: -200, bottom: 250 }}>
-              FS AGENCY
+              TB AGENCY
             </motion.h1>
             <motion.h2 drag onDragEnd dragConstraints={{ left: -250, right: 1250, top: -200, bottom: 250 }}>
               <DynamicText />

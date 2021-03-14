@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom"
 
 const SocialNetwork = () => {
 
@@ -27,9 +28,9 @@ const SocialNetwork = () => {
         <a href="https://www.linkedin.com/in/thibault-brasseur-developpeurweb/" target="_blank" rel="noopener noreferrer" className="hover" onMouseOver={anim} >
             <li><i className="fab fa-linkedin"></i></li>
         </a>
-        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="hover" onMouseOver={anim} >
+        <Link to="/assets/files/CV.ThibaultBrasseur.pdf" target="_blank"    className="hover" onMouseOver={anim}>
             <li><i className="far fa-file-pdf"></i></li>
-        </a>
+        </Link>
       </ul>
     </div>
   );
